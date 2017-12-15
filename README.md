@@ -14,6 +14,7 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis的种子项目
 - 使用FastJsonHttpMessageConverter，提高JSON序列化速度
 - 集成MyBatis、通用Mapper插件、PageHelper分页插件，实现单表业务零SQL
 - 提供代码生成器根据表名生成对应的Model、Mapper、MapperXML、Service、ServiceImpl、Controller等基础代码，其中Controller模板默认提供POST和RESTful两套，根据需求在```CodeGenerator.genController(tableName)```方法中自己选择，默认使用POST模板。代码模板可根据实际项目的需求来扩展，由于每个公司业务都不太一样，所以只提供了一些比较基础、通用的模板，主要是提供一个思路来减少重复代码的编写，我在实际项目的使用中，其实根据公司业务的抽象编写了大量的模板。另外，使用模板也有助于保持团队代码风格的统一
+- 集成swagger 2 API及跨域处理
 - 另有彩蛋，待你探索
  
 ## 快速开始
@@ -41,5 +42,5 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis的种子项目
 - Fastjson（[查看官方中文文档](https://github.com/Alibaba/fastjson/wiki/%E9%A6%96%E9%A1%B5)）
 - swagger2
 
-## License
-无，纯粹开源分享，感谢大家 [Star](https://github.com/lihengming/spring-boot-api-project-seed/stargazers) & [Fork](https://github.com/lihengming/spring-boot-api-project-seed/network/members) 的支持。
+
+可以删除已经生成好的例子，重新配置代码生成器运行一遍，完美。
